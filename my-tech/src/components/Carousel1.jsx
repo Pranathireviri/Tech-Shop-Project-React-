@@ -30,7 +30,7 @@ export default function Carousel() {
           style={{ transform: `translateX(-${index * 20}%)` }}
         >
           {products.map((item) => (
-            <div key={item.id} className="w-1/5 px-3 flex-shrink-0">
+            <div key={item.id} className="w-1/5 px-4 flex-shrink-0">
               <div className="text-center bg-black rounded-xl p-4">
 
                 <p className="text-gray-400 text-sm mb-3">{item.name}</p>
