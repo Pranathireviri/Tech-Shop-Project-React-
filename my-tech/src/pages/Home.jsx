@@ -110,7 +110,7 @@ export default function Home() {
             setSelectedCategory("all");
             window.scrollTo({ top: 0, behavior: "smooth" });
           }}
-          className="bg-black text-white border border-gray-700 hover:border-red-500 rounded flex items-center justify-center cursor-pointer transition min-h-[380px]"
+          className="bg-black text-white border border-gray-800 hover:border-red-500 rounded flex items-center justify-center cursor-pointer transition min-h-[380px]"
         >
           <div className="text-center">
             <p className="text-xl font-semibold">Browse All Products →</p>
