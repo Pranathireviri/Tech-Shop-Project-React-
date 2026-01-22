@@ -76,7 +76,7 @@ export default function Header() {
                     </div>
                   ))
                 ) : (
-                  <p className="px-4 py-2 text-gray-500">No results found</p>
+                  <p className="px-4 py-2 text-gray-500"><b>No results found</b></p>
                 )}
               </div>
             )}
