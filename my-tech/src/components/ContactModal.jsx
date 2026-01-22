@@ -21,7 +21,7 @@ export default function ContactModal({ onClose }) {
               New to Tech-Shop?{" "}
               <button
                 onClick={() => setIsLogin(false)}
-                className="text-red-500 hover:underline"
+                className="text-red-600 hover:underline"
               >
                 Create an account
               </button>
