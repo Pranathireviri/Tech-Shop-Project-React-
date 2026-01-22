@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from "react";//This page is Cart context 
+import { createContext, useContext, useState } from "react";//This page is Cart context file 
 
 const CartContext = createContext();
 
