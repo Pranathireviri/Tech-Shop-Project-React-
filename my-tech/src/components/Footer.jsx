@@ -16,7 +16,7 @@ export default function Footer() {
         <>
             <div className="bg-gray-900 py-16">
                 <h1 className="text-center text-3xl ">Our Advantages</h1>
-                <div className="max-w-7xl mx-auto flex flex-wrap justify-between gap-10 px-6 text-gray-300 mt-40">
+                <div className="max-w-7xl mx-auto flex flex-wrap justify-between gap-11 px-6 text-gray-300 mt-40">
                     <div className="flex items-center gap-4">
                         <TbTruckDelivery className="text-red-500 text-4xl" />
                         <div>
