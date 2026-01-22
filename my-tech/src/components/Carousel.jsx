@@ -71,7 +71,7 @@ export default function Carousel() {
               <img
                 src={slide.image}
                 alt={slide.title}
-                className="w-[260px] md:w-[420px] object-contain transition-transform duration-500 hover:scale-105"
+                className="w-[260px] md:w-[430px] object-contain transition-transform duration-500 hover:scale-105"
               />
             </div>
           </div>
