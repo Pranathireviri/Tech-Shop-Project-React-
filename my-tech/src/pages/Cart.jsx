@@ -22,7 +22,7 @@ export default function Cart() {
     return (
       <div className="flex flex-col items-center p-20 text-white">
         <BsCartX className="text-red-500 text-9xl" />
-        <p className="text-3xl mt-4">Your cart is empty</p>
+        <p className="text-4xl mt-4">Your cart is empty</p>
         <button
           onClick={() => navigate("/")}
           className="mt-6 bg-red-600 px-6 py-3 rounded"
