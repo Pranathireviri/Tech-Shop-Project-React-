@@ -19,7 +19,7 @@ export default function ProductCard({ product }) {
         alt={product.title}
       />
 
-      <p className="text-sm text-gray-400 mt-2">{product.brand}</p>
+      <p className="text-sm text-gray-400 mt-3">{product.brand}</p>
 
       <h3 className="font-semibold">{product.title}</h3>
 
