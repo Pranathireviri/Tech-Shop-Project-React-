@@ -131,7 +131,7 @@ export default function ProductDetails() {
           )}
 
           {activeTab === "Overview" && (
-            <div className="max-w-3xl mx-auto text-gray-400 text-sm leading-relaxed space-y-3">
+            <div className="max-w-3xl mx-auto text-gray-400 text-sm leading-relaxed space-y-4">
               <p>
                 The <span className="text-red-500 font-semibold">{product.title}</span> provides
                 fabulous sound quality with premium comfort.
