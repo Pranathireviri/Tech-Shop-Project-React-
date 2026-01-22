@@ -17,7 +17,7 @@ export default function Carousel() {
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prev) => (prev === products.length - visible ? 0 : prev + 1));
-    }, 2500);
+    }, 3500);
 
     return () => clearInterval(interval);
   }, []);
