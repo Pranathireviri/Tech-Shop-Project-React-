@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";//App jsx is main file
 import Header from "./components/Header";
 import Carousel from "./components/Carousel";
 import Carousel1 from "./components/Carousel1";
